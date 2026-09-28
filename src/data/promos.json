@@ -1,0 +1,30 @@
+[
+  {
+    "id": "advance-pay",
+    "tag": "HEMAT S/D 40%",
+    "title": "Paket Bayar di Depan (Advance Payment)",
+    "description": "Bayar 3 atau 4 bulan langsung di muka, nikmati potongan harga fantastis hingga 40% plus bonus langganan streaming premium.",
+    "highlights": [
+      "Hemat biaya bulanan hingga 40%",
+      "Bonus 3 Bulan Vidio Platinum & Catchplay+ Movie",
+      "Bebas ribet bayar tagihan tiap bulan",
+      "Gratis biaya sewa modem & instalasi teknisi"
+    ],
+    "ctaText": "Ambil Promo Advance Pay",
+    "waMessage": "Halo Fadli, saya ingin tanya detail Promo Advance Payment (Bayar di Muka) XL Satu"
+  },
+  {
+    "id": "pay-10-get-12",
+    "tag": "GRATIS 2 BULAN",
+    "title": "Promo Tahunan (Pay 10 Get 12)",
+    "description": "Langganan komitmen 1 tahun sekaligus, cukup bayar 10 bulan dan dapatkan GRATIS 2 bulan internetan tanpa jeda.",
+    "highlights": [
+      "2 Bulan internetan 100% Gratis",
+      "Proteksi harga flat tanpa kenaikan selama 1 tahun",
+      "Prioritas penanganan teknisi VIP",
+      "Bonus bundling paket hiburan keluarga"
+    ],
+    "ctaText": "Klaim Promo Tahunan",
+    "waMessage": "Halo Fadli, saya tertarik promo XL Satu Pay 10 Get 12 (Gratis 2 Bulan)"
+  }
+]

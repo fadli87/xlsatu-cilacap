@@ -1,0 +1,163 @@
+{
+  "adminPhone": "628975905946",
+  "adminDisplayPhone": "0897-5905-946",
+  "agentName": "Fadli XL Satu Cilacap",
+  "area": "Cilacap & Sekitarnya",
+  "categories": [
+    {
+      "id": "ftth",
+      "name": "XL Satu FTTH (Fiber Optik)",
+      "badge": "Paling Stabil & Cepat",
+      "description": "Internet rumah 100% Fiber Optik tanpa batas kuota, stabil di segala cuaca, cocok untuk streaming 4K, WFH & gaming.",
+      "items": [
+        {
+          "id": "ftth-20",
+          "name": "FTTH Starter 20",
+          "speed": "20 Mbps",
+          "price": "185.000",
+          "period": "bulan",
+          "popular": false,
+          "badge": "Hemat Banget",
+          "features": [
+            "Kecepatan s/d 20 Mbps",
+            "Unlimited Tanpa FUP",
+            "Termasuk Router WiFi",
+            "Cocok untuk 1 - 3 Perangkat",
+            "Gratis Instalasi Teknisi"
+          ],
+          "note": "Harga belum termasuk PPN 11% (Min. kontrak 12 bln)"
+        },
+        {
+          "id": "ftth-100",
+          "name": "FTTH Value 100",
+          "speed": "100 Mbps",
+          "price": "229.000",
+          "period": "bulan",
+          "popular": true,
+          "badge": "PALING LARIS 🔥",
+          "features": [
+            "Kecepatan s/d 100 Mbps",
+            "Unlimited Tanpa FUP",
+            "Termasuk Router Dual-Band",
+            "Cocok untuk 4 - 8 Perangkat",
+            "Streaming 4K Lancar Jaya",
+            "Gratis Instalasi Teknisi"
+          ],
+          "note": "Harga belum termasuk PPN 11% (Min. kontrak 12 bln)"
+        },
+        {
+          "id": "ftth-250",
+          "name": "FTTH Boost 250",
+          "speed": "250 Mbps",
+          "price": "229.000",
+          "period": "bulan",
+          "popular": false,
+          "badge": "Promo Upgrade! ⚡",
+          "features": [
+            "Kecepatan Super 250 Mbps",
+            "Promo Speed Upgrade dari 100 Mbps",
+            "Unlimited Tanpa FUP",
+            "Modem Router Gigabit",
+            "Cocok untuk 8 - 12 Perangkat",
+            "Gratis Instalasi Teknisi"
+          ],
+          "note": "Harga promo periode tertentu. Belum termasuk PPN 11%"
+        },
+        {
+          "id": "ftth-300",
+          "name": "FTTH Pro 300",
+          "speed": "300 Mbps",
+          "price": "239.000",
+          "period": "bulan",
+          "popular": false,
+          "badge": "Super Cepat",
+          "features": [
+            "Kecepatan s/d 300 Mbps",
+            "Unlimited Tanpa FUP",
+            "Modem Router Gigabit Dual-Band",
+            "Cocok untuk Gamer & Streamer",
+            "Gratis Instalasi Teknisi"
+          ],
+          "note": "Harga belum termasuk PPN 11% (Min. kontrak 12 bln)"
+        },
+        {
+          "id": "ftth-500",
+          "name": "FTTH Ultimate 500",
+          "speed": "500 Mbps",
+          "price": "399.000",
+          "period": "bulan",
+          "popular": false,
+          "badge": "Ultra Performa",
+          "features": [
+            "Kecepatan Monster 500 Mbps",
+            "Unlimited Tanpa FUP",
+            "High Performance Gigabit Router",
+            "Dukungan Banyak Device Sekaligus",
+            "Gratis Instalasi Teknisi"
+          ],
+          "note": "Harga belum termasuk PPN 11% (Min. kontrak 12 bln)"
+        },
+        {
+          "id": "ftth-1000",
+          "name": "FTTH Giga Max 1G",
+          "speed": "1 Gbps (1000 Mbps)",
+          "price": "899.000",
+          "period": "bulan",
+          "popular": false,
+          "badge": "Max Speed",
+          "features": [
+            "Kecepatan Puncak 1 Gbps",
+            "Unlimited Tanpa FUP",
+            "Premium Enterprise Level Gear",
+            "Multi-Stream 4K/8K & Smart Home",
+            "Gratis Instalasi Teknisi"
+          ],
+          "note": "Harga belum termasuk PPN 11% (Min. kontrak 12 bln)"
+        }
+      ]
+    },
+    {
+      "id": "fwa",
+      "name": "XL Satu FWA (Wireless 5G+)",
+      "badge": "Solusi Tanpa Kabel Fiber",
+      "description": "Internet nirkabel kecepatan tinggi berbasis sinyal Ultra 5G+ XL. Solusi tepat untuk area Cilacap yang belum terjangkau tiang fiber optik.",
+      "items": [
+        {
+          "id": "fwa-outdoor-100",
+          "name": "XL Satu FWA Outdoor 100",
+          "speed": "100 Mbps",
+          "price": "219.000",
+          "period": "bulan",
+          "popular": true,
+          "badge": "REKOMENDASI AREA CILACAP 📡",
+          "features": [
+            "Kecepatan s/d 100 Mbps",
+            "Koneksi Nirkabel 5G+ Super Kuat",
+            "Dipasang Antena Outdoor oleh Teknisi",
+            "FUP Kuota Lega 1.024 GB (1 TB)/bulan",
+            "Cocok untuk Area Tanpa Tiang Fiber",
+            "Gratis Instalasi Teknisi"
+          ],
+          "note": "Harga belum termasuk PPN 11% (Min. kontrak 12 bln)"
+        },
+        {
+          "id": "fwa-air-indoor",
+          "name": "XL Satu Air (Indoor Plug & Play)",
+          "speed": "Sesuai Sinyal 5G/4G",
+          "price": "185.000",
+          "period": "bulan",
+          "popular": false,
+          "badge": "Praktis Tinggal Colok",
+          "features": [
+            "Modem Router Indoor Mandiri",
+            "Tanpa Perlu Tarik Kabel Luar",
+            "Self-Install (Plug & Play)",
+            "Fleksibel & Mudah Dipindah",
+            "Kuota Bulanan Berlimpah"
+          ],
+          "note": "Harga belum termasuk PPN 11%. Tidak ada jaminan speed tetap"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "initialStep": "welcome",
+  "steps": {
+    "welcome": {
+      "message": "👋 **Halo! Selamat datang di Layanan Informasi XL Satu Cilacap.**\n\nAda yang bisa kami bantu seputar pasang WiFi XL Satu di rumah kamu? Pilih topik di bawah ini atau langsung chat admin ya!",
+      "buttons": [
+        { "label": "💰 Cek Harga Paket", "action": "goto", "target": "price_menu" },
+        { "label": "📶 FTTH vs FWA (Apa Bedanya?)", "action": "goto", "target": "diff_menu" },
+        { "label": "📍 Cek Area Jangkauan Cilacap", "action": "goto", "target": "coverage_menu" },
+        { "label": "🎁 Promo Aktif & Diskon", "action": "goto", "target": "promo_menu" },
+        { "label": "📋 Syarat & Ketentuan", "action": "goto", "target": "terms_menu" },
+        { "label": "💬 Chat Langsung Admin WA", "action": "whatsapp", "text": "Halo Fadli, saya mau tanya pendaftaran WiFi XL Satu Cilacap" }
+      ]
+    },
+    "price_menu": {
+      "message": "💰 **Daftar Kisaran Harga Paket WiFi XL Satu** *(belum PPN 11%)*:\n\n**🔌 XL Satu FTTH (Fiber Optik):**\n• 20 Mbps: Rp185.000/bln\n• 100 Mbps: Rp229.000/bln\n• 250 Mbps: Rp229.000/bln *(Promo Upgrade)*\n• 300 Mbps: Rp239.000/bln\n• 500 Mbps: Rp399.000/bln\n• 1 Gbps: Rp899.000/bln\n\n**📡 XL Satu FWA Outdoor (Sinyal 5G+):**\n• 100 Mbps: Rp219.000/bln *(FUP 1.024 GB)*\n\n⚠️ *Ketersediaan paket FTTH vs FWA tergantung titik alamat rumah kamu.*",
+      "buttons": [
+        { "label": "📍 Cek Paket di Alamat Saya (via WA)", "action": "whatsapp", "text": "Halo Fadli, saya mau cek harga dan paket yang tersedia di alamat saya" },
+        { "label": "🎁 Lihat Promo Bayar Hemat", "action": "goto", "target": "promo_menu" },
+        { "label": "↩️ Kembali ke Menu Awal", "action": "goto", "target": "welcome" }
+      ]
+    },
+    "diff_menu": {
+      "message": "📶 **Perbedaan FTTH vs FWA:**\n\n🔌 **FTTH (Fiber Optik)**\n• Pakai tarikan kabel fiber optik langsung ke rumah.\n• Kecepatan 20 Mbps s/d 1 Gbps, 100% Unlimited tanpa FUP.\n• Sangat stabil, cocok untuk streaming 4K & gaming berat.\n\n📡 **FWA Outdoor (Wireless 5G+)**\n• Pakai antena nirkabel penangkap sinyal Ultra 5G+ XL.\n• Kecepatan 50 / 100 Mbps (FUP 1.024 GB/bln).\n• Solusi utama untuk area yang belum ada tiang fiber.\n\n📦 **XL Satu Air (FWA Indoor)**\n• Modem plug & play tinggal colok listrik sendiri.",
+      "buttons": [
+        { "label": "📍 Cek Coverage Rumah Saya", "action": "whatsapp", "text": "Halo Fadli, mau tanya apakah rumah saya tercover FTTH atau FWA?" },
+        { "label": "💰 Lihat Daftar Harga", "action": "goto", "target": "price_menu" },
+        { "label": "↩️ Kembali ke Menu Awal", "action": "goto", "target": "welcome" }
+      ]
+    },
+    "coverage_menu": {
+      "message": "📍 **Cek Jangkauan Area Cilacap & Sekitarnya**\n\nArea Cilacap kini sudah live untuk jaringan **XL Satu FTTH** dan **XL Satu FWA Outdoor** (per 22 Juni 2026).\n\nUntuk memastikan titik rumah kamu masuk jalur fiber atau FWA, silakan kirim detail alamat / share location ke admin.",
+      "buttons": [
+        { "label": "📝 Isi Form Cek Coverage di Web", "action": "scroll", "target": "#coverage" },
+        { "label": "💬 Kirim Share Lokasi ke WhatsApp", "action": "whatsapp", "text": "Halo Fadli, saya mau cek coverage XL Satu di alamat: (Kecamatan/Kelurahan): " },
+        { "label": "↩️ Kembali ke Menu Awal", "action": "goto", "target": "welcome" }
+      ]
+    },
+    "promo_menu": {
+      "message": "🎁 **Promo Spesial XL Satu yang Sedang Berjalan:**\n\n✨ **Advance Payment (Bayar di Depan):**\n• Bayar 3–4 bulan di muka: Diskon hemat s/d 40%!\n• Bonus langganan OTT (Vidio Platinum & Catchplay+ Movie).\n\n✨ **Promo Bayar 10 Dapat 12 Bulan:**\n• Langganan 1 tahun, dapat gratis 2 bulan tagihan!\n\n✨ **Gratis Biaya Instalasi Teknisi** (Khusus pendaftaran periode ini).",
+      "buttons": [
+        { "label": "⚡ Ambil Promo via WhatsApp", "action": "whatsapp", "text": "Halo Fadli, saya tertarik ambil Promo Advance Payment / Promo Terbaru XL Satu Cilacap" },
+        { "label": "💰 Cek Paket Lengkap", "action": "goto", "target": "price_menu" },
+        { "label": "↩️ Kembali ke Menu Awal", "action": "goto", "target": "welcome" }
+      ]
+    },
+    "terms_menu": {
+      "message": "📋 **Syarat & Ketentuan Berlangganan:**\n\n1. **Masa Berlangganan:** Minimal 12 bulan (penalti Rp1.000.000 jika memutus kontrak sebelum 12 bulan).\n2. **Harga:** Seluruh tarif yang tertera belum termasuk PPN 11%.\n3. **Instalasi:** Pemasangan dilakukan oleh teknisi resmi bersertifikat.\n4. **FUP:** Paket FTTH 100% Unlimited tanpa FUP. Paket FWA Outdoor FUP 1.024 GB/bulan.\n5. **Pembayaran:** Tagihan bulanan mudah dibayar via aplikasi myXL, transfer bank, e-wallet, atau minimarket.",
+      "buttons": [
+        { "label": "💬 Konsultasi & Daftar", "action": "whatsapp", "text": "Halo Fadli, saya sudah membaca syarat ketentuan dan ingin mendaftar XL Satu Cilacap" },
+        { "label": "↩️ Kembali ke Menu Awal", "action": "goto", "target": "welcome" }
+      ]
+    }
+  }
+}
